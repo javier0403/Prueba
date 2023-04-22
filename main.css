@@ -1,0 +1,109 @@
+#fondo {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 1px solid #000000;
+    background-color: #43dede;
+}
+
+.cabecera {
+    display: inline-block;
+    padding: 0 20px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border: 1px solid #000000;
+    background-color: #20dbd9;
+
+}
+
+.imagen1{
+
+    display: grid;
+    display: inline-block;
+    padding: 0 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-image: url("imagenes/rsz_11imagen1.jpg");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+
+}
+
+.imagen2{
+
+    display: grid;
+    display: inline-block;
+    padding: 0 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-image: url("imagenes/rsz_whatsapp_image_2023-04-21_at_201446.jpg");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.imagen3{
+
+    display: grid;
+    display: inline-block;
+    padding: 0 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column: (4/5) ;
+    grid-row: (1/2);
+    background-image: url("imagenes/rsz_whatsapp_image_2023-04-21_at_201819.jpg");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.Hobbies{
+
+
+    grid-column: 1/2;
+    grid-row: 4/4;
+    border: 1px solid #000000;
+    background-color: #20a4d8;
+}
+
+.Descripcion{
+
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 1px solid #000000;
+    background-color: #20a4d8;
+}
+
+
+.Detalles{
+
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 1px solid #000000;
+    background-color: #20a4d8;
+}
+
+.enlace {
+
+    grid-column: 1/5;
+    grid-row: 5/6;
+    border: 1px solid #000000;
+    background-color: #20dbd9;
+
+}
+
+.Datos_Laborales{
+
+    grid-column: 2/5;
+    grid-row: 2/5;
+    border: 1px solid #000000;
+    background-color: #3b415f;
+
+}
+
